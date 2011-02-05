@@ -1,0 +1,9 @@
+The TSTwitterEngine uses a few other open source projects: MGTwitter Engine, Touch JSON and OAuthConsumer. The goal is to provide an easy to set up library for building Twitter integration into iPhone app. The library provides out of box support for oAuth authentication, twitter's rest api and streaming api.
+
+The project include an demo application for the library. When running, the demo project presents a modal view to ask the user to log into their twitter account, and starts streaming any tweets with the keyword "github" via a table view.
+
+To run the demo project, add your consumer key and consumer secret in the TWitterEngine.h file. 
+
+If you want to change the keyword, replace it in the TwitterCommonLibraryAppDelegate.m
+
+Tim
